@@ -10,7 +10,6 @@ function Home() {
 
   // Toggle Menu
   const [show, setShow]  = useState(true);
-
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -19,7 +18,7 @@ function Home() {
           <div className="left__navbar">
             <a
               className="social-icon"
-              target="_blank"
+              target=""
               href="https://www.linkedin.com/in/inbal-buckris-full-stack/"
             >
               <ion-icon name="logo-linkedin"></ion-icon>
@@ -27,13 +26,13 @@ function Home() {
 
             <a
               class="social-icon"
-              target="_blank"
+              target=""
               href="https://github.com/InbalBu"
             >
               <ion-icon name="logo-github"></ion-icon>
             </a>
 
-            <a class="social-icon" target="_blank" href="tel:+526809922">
+            <a class="social-icon" target="" href="tel:+526809922">
               <ion-icon name="call-outline"></ion-icon>
             </a>
           </div>
@@ -57,8 +56,8 @@ function Home() {
               </a>
             </ul>
           </div>
-          {/* Toggle Menu */}
-          <div className="toggle_menu">
+           {/* Toogle Menu */}
+           <div className="toggle__menu">
             <svg onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -75,25 +74,25 @@ function Home() {
           </div>
           {show ? (
           <div className="sideNavbar">
-            <ul className="sidebar d__flex">
+              <ul className="sidebar d__flex">
               <li className="sideNavbar">
-                <a href="#Home">Home</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#About">About</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Skills">Skills</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Projects">Projects</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Contact">Contact</a>
-              </li>
-            </ul>
+              <a href="#Home">Home</a>
+            </li>
+            <li className="sideNavbar">
+              <a href="#About">About</a>
+            </li>
+            <li className="sideNavbar">
+              <a href="#Skills">Skills</a>
+            </li>
+            <li className="sideNavbar">
+              <a href="#Projects">Projects</a>
+            </li>
+            <li className="sideNavbar">
+              <a href="#Contact">Contact</a>
+            </li>
+              </ul>
           </div>
-        ) : null}
+           ) : null}
         </div>
         {/* HOME */}
         <div className="container">

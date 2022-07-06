@@ -79,16 +79,13 @@ h3.home__text {
     background-color: #191d24;
 }
 
-.toggle_menu {
-    display: flex;
-    justify-content: flex-end;
-    float: right;
-    z-index: 1000;
-    width: 100%;
+li.sideNavbar{
+    padding: 25px 30px;
 }
 
 ul.sidebar.d__flex {
-    flex-wrap: wrap;
+    display: none;
+    flex-wrap: flex;
     height: 100%;
     position: fixed;
     right: 0%;
@@ -98,9 +95,6 @@ ul.sidebar.d__flex {
     top: 0%;
     flex-direction: column;
 }
-li.sideNavbar{
-    padding: 25px 30px;
-}
 
 .left__navbar{
     display: flex;
@@ -109,17 +103,39 @@ li.sideNavbar{
     line-height: 50px;
 }
 
-.toggle_menu {
+.toggle__menu {
     display: none;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
 }
+
 
 
 @media only screen and (max-width:480px) {
 
-    .toggle_menu {
+    .toggle__menu {
         display: flex;
+        justify-content: flex-end;
+        float: right;
+        z-index: 1000;
+        width: 100%;
     }
 
+    ul.sidebar.d__flex {
+        display: flex;
+        flex-wrap: flex;
+        height: 100%;
+        position: fixed;
+        right: 0%;
+        background: #191d24;
+        justify-content: center;
+        width: 300px;
+        top: 0%;
+        flex-direction: column;
+    }
+  
     .header {
         justify-content: space-between;
     }
