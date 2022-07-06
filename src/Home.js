@@ -36,7 +36,7 @@ function Home() {
               <ion-icon name="logo-github"></ion-icon>
             </a>
 
-            <a class="social-icon" target="" href="tel:+526809922">
+            <a class="social-icon" target="" href="tel:0526809922">
               <ion-icon name="call-outline"></ion-icon>
             </a>
           </div>
