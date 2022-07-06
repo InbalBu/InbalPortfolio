@@ -1,0 +1,162 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.home__bg {
+    background-image: url(C:\Users\inbal\OneDrive\Documents\HTMLJS\inbalportfolio\src\coding-animate.svg);
+    background-color: #191d24;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-position-y: bottom;
+}
+
+.navbar {
+    margin-left: 100px;
+}
+
+li.nav__items:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+li.nav__items:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+ }
+  
+
+li.nav__items {
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+}
+
+.home__content {
+    padding: 100px 0px;
+    margin-left: 150px;
+}
+
+h1.home__text {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white !important;
+}
+
+h2.home__text {
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3.home__text {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;;
+    line-height: 40px;
+
+}
+
+.header{
+    transition: .4s all ease;
+}
+
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191d24;
+}
+
+.toggle_menu {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
+}
+
+ul.sidebar.d__flex {
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    background: #191d24;
+    justify-content: center;
+    width: 300px;
+    top: 0%;
+    flex-direction: column;
+}
+li.sideNavbar{
+    padding: 25px 30px;
+}
+
+.left__navbar{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.toggle_menu {
+    display: none;
+}
+
+
+@media only screen and (max-width:480px) {
+
+    .toggle_menu {
+        display: flex;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .navigation.pxy__30 {
+        display: none;
+    }
+
+    svg.bi.bi-justify.white.pointer {
+        width: 30px;
+        height: 30px;
+    }
+
+    .home__bg {
+        background-image: none;
+    }
+
+    .home__content {
+        padding: 100px 0px;
+        margin-left: 30px;
+    }
+
+    .left__navbar{
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
