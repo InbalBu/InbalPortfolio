@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
+import { ReactComponent as YourSvg } from './coding-animate.svg';
 
 function Home() {
   //fixed header
@@ -14,6 +15,9 @@ function Home() {
     <div className="home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
+          <div className="svg__bg">
+              <img src="https://portfolio-tahrer.netlify.app/static/media/coding-animate.f7ba9589d82145c8437b.svg" alt="" />
+          </div>
           {/* social icons */}
           <div className="left__navbar">
             <a
