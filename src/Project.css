@@ -67,6 +67,16 @@ h4.project__text {
 
 }
 
+.project__text2 {
+    font-size: 22px;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
 a.project__btn {
     padding: 12px 35px;
     border: 2px solid #ffffff87;
