@@ -1,31 +1,21 @@
-# My Portfolio 🙇🏻‍♀️
+# Weather App 🌦
 
-My Personal Website built in React.
+Weather app built in react, using OpenWeather API.
 
 ## Features 💡
 
-- Navigate easily with navbar, including links to my social media profiles.
-- Download my resume easily.
-- View my most recent projects, with links to github project.
-- "Contact me" form, to contact me easily by email.
+- Search your favorite location and I will show you the weather in this place.
 
-![1](https://user-images.githubusercontent.com/102725041/190108916-9499e8d4-3dc6-4a73-9202-9e834080b9f0.png)
+## MY Stack  📒 
 
-![2](https://user-images.githubusercontent.com/102725041/190108980-29b5cae6-26a8-4d64-b509-89c707fdb3f2.png)
+- OpenWeatherMap API.
+- Built in React, JavaScript, HTML, Css.
 
-![3](https://user-images.githubusercontent.com/102725041/190109025-bb8c9552-5e39-4de1-bf37-89eff05c2464.png)
+![Screenshot_1](https://user-images.githubusercontent.com/102725041/192724319-886b8a88-b641-4e78-a08c-b1805c2a2837.png)
 
-![4](https://user-images.githubusercontent.com/102725041/190109052-511b0460-2df0-425f-b856-10e86aa700a0.png)
-
-![Screenshot_2](https://user-images.githubusercontent.com/102725041/190109101-857855f5-5e4a-497e-a70f-1f99738e42e8.png)
+![Screenshot_2](https://user-images.githubusercontent.com/102725041/192724337-a1c4593f-b9ae-407a-bc31-fc533dbe53e7.png)
 
 
-### How to run:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 
